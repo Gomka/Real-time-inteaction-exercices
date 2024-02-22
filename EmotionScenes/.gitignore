@@ -20,8 +20,6 @@
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # /[Aa]ssets/AssetStoreTools*
 
-/[Aa]ssets/Resources/Kenney/2D assets/
-
 /[Aa]ssets/Resources/Kenney/2D assets/[0-9]*
 /[Aa]ssets/Resources/Kenney/2D assets/[Aa]*
 /[Aa]ssets/Resources/Kenney/2D assets/[Bb]*
