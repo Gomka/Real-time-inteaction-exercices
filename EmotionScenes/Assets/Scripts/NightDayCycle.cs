@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class NightDayCycle : MonoBehaviour
 {
-    [SerializeField] float speed = 5f;
+    [SerializeField] float speedx = 0f, speedy = 5f, speedz = 0f;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,6 +14,8 @@ public class NightDayCycle : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(Vector3.up * Time.deltaTime * speed);
+        transform.Rotate(Vector3.right * Time.deltaTime * speedx);
+        transform.Rotate(Vector3.up * Time.deltaTime * speedy);
+        transform.Rotate(Vector3.forward * Time.deltaTime * speedz);
     }
 }
