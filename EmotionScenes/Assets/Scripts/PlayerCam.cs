@@ -33,17 +33,17 @@ public class PlayerCam : MonoBehaviour
         transform.rotation = Quaternion.Euler(xRotation, yRotation, 0);
         rigidbody.velocity = new Vector3();
 
-        if(Input.GetKey(KeyCode.W)) {
+        if(Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow)) {
             rigidbody.velocity += transform.forward * moveSpeed;
         }
-        else if(Input.GetKey(KeyCode.S)) {
+        else if(Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow)) {
             rigidbody.velocity += -transform.forward * moveSpeed;
         }        
-        if(Input.GetKey(KeyCode.A)) {
-            rigidbody.velocity += -transform.right * moveSpeed;
+        if(Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow)) {
+            rigidbody.velocity += -transform.right * moveSpeed * 2;
         }
-        else if(Input.GetKey(KeyCode.D)) {
-            rigidbody.velocity += transform.right * moveSpeed;
+        else if(Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow)) {
+            rigidbody.velocity += transform.right * moveSpeed * 2;
         }
     }
 }

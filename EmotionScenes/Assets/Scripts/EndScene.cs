@@ -10,7 +10,7 @@ public class EndScene : MonoBehaviour
     void OnTriggerEnter(Collider other) {
         switch (sceneInfo)
         {
-            case "sad":
+            case "sad": Debug.Log("Sad scene");
                 break;
             case "surprise":
                 break;
