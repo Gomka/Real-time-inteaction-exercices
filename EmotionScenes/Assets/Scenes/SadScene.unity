@@ -7789,6 +7789,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60c3dad2c4ebe36458d8ec92a009f6ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneInfo: sad
 --- !u!64 &2116997673
 MeshCollider:
   m_ObjectHideFlags: 0

@@ -5,19 +5,22 @@ using UnityEngine;
 
 public class EndScene : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    [SerializeField] string sceneInfo;
 
     void OnTriggerEnter(Collider other) {
-        Debug.Log("End Scene");        
+        switch (sceneInfo)
+        {
+            case "sad":
+                break;
+            case "surprise":
+                break;
+            case "relief":
+                break;
+            case "happy":
+                break;
+            default: break;
+
+        }
+
     }
 }
