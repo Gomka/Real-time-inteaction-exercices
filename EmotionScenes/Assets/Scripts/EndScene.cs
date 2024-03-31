@@ -18,7 +18,8 @@ public class EndScene : MonoBehaviour
                 break;
             case "happy":
                 break;
-            default: break;
+            default: 
+                break;
 
         }
 
