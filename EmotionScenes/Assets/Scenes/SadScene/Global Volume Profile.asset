@@ -99,20 +99,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   active: 1
   redOutRedIn:
-    m_OverrideState: 0
-    m_Value: 48
+    m_OverrideState: 1
+    m_Value: 110
   redOutGreenIn:
     m_OverrideState: 0
-    m_Value: 4
+    m_Value: 0
   redOutBlueIn:
     m_OverrideState: 0
-    m_Value: -25
+    m_Value: 0
   greenOutRedIn:
     m_OverrideState: 0
     m_Value: 0
   greenOutGreenIn:
     m_OverrideState: 1
-    m_Value: 86
+    m_Value: 112
   greenOutBlueIn:
     m_OverrideState: 0
     m_Value: 0
@@ -124,4 +124,4 @@ MonoBehaviour:
     m_Value: 0
   blueOutBlueIn:
     m_OverrideState: 1
-    m_Value: 125
+    m_Value: 71
