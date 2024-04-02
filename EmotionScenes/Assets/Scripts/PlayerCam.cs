@@ -22,6 +22,8 @@ public class PlayerCam : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        rigidbody.velocity = new Vector3();
+
         float mouseX = Input.GetAxisRaw("Mouse X") * Time.deltaTime * sensX;
         float mouseY = Input.GetAxisRaw("Mouse Y") * Time.deltaTime * sensY;
 
@@ -31,7 +33,7 @@ public class PlayerCam : MonoBehaviour
         xRotation = Mathf.Clamp(xRotation, -90f, 90f);
 
         transform.rotation = Quaternion.Euler(xRotation, yRotation, 0);
-        rigidbody.velocity = new Vector3();
+
 
         if(Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow)) {
             rigidbody.velocity += transform.forward * moveSpeed;
@@ -45,5 +47,11 @@ public class PlayerCam : MonoBehaviour
         else if(Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow)) {
             rigidbody.velocity += transform.right * moveSpeed * 2;
         }
+    }
+
+    public void Disable () {
+        rigidbody.velocity = new Vector3();
+        rigidbody.isKinematic = true;
+        this.enabled = false;
     }
 }
