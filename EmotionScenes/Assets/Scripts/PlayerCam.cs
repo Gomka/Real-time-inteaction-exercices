@@ -54,4 +54,9 @@ public class PlayerCam : MonoBehaviour
         rigidbody.isKinematic = true;
         this.enabled = false;
     }
+
+    public void Enable () {
+        rigidbody.isKinematic = false;
+        this.enabled = true;
+    }
 }

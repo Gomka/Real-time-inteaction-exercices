@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &6369627470177361136
+--- !u!1 &3563235380375017523
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,47 +8,47 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7563300816109910115}
-  - component: {fileID: 6485998433520920794}
-  - component: {fileID: 6493690048971171761}
-  - component: {fileID: 8705101037414798921}
+  - component: {fileID: 4195374767574549129}
+  - component: {fileID: 979300418530315564}
+  - component: {fileID: 3059030203234056678}
+  - component: {fileID: 3818989308744160975}
   m_Layer: 0
-  m_Name: tree_plateau_dark
+  m_Name: tree_plateau
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7563300816109910115
+--- !u!4 &4195374767574549129
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6369627470177361136}
+  m_GameObject: {fileID: 3563235380375017523}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 5, y: 5, z: 5}
+  m_LocalPosition: {x: -100.7771, y: 1.602965e-30, z: -18.98025}
+  m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &6485998433520920794
+--- !u!33 &979300418530315564
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6369627470177361136}
-  m_Mesh: {fileID: -4156898945092544607, guid: 1071ebafa3aea4b41a0f98dca04a15a6, type: 3}
---- !u!23 &6493690048971171761
+  m_GameObject: {fileID: 3563235380375017523}
+  m_Mesh: {fileID: -8672258856033842154, guid: a4433efc6ec47a04dbbdbd40c683429a, type: 3}
+--- !u!23 &3059030203234056678
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6369627470177361136}
+  m_GameObject: {fileID: 3563235380375017523}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -62,8 +62,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -436311623246891856, guid: 1071ebafa3aea4b41a0f98dca04a15a6, type: 3}
-  - {fileID: -8852278937947287675, guid: 1071ebafa3aea4b41a0f98dca04a15a6, type: 3}
+  - {fileID: -2959283651340661505, guid: a4433efc6ec47a04dbbdbd40c683429a, type: 3}
+  - {fileID: -2551240767032753910, guid: a4433efc6ec47a04dbbdbd40c683429a, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -85,16 +85,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!205 &8705101037414798921
+--- !u!205 &3818989308744160975
 LODGroup:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6369627470177361136}
+  m_GameObject: {fileID: 3563235380375017523}
   serializedVersion: 2
-  m_LocalReferencePoint: {x: 0, y: 0, z: 0}
-  m_Size: 1
+  m_LocalReferencePoint: {x: 0, y: 24.9868, z: 0}
+  m_Size: 49.9736
   m_FadeMode: 0
   m_AnimateCrossFading: 0
   m_LastLODIsBillboard: 0
@@ -102,13 +102,13 @@ LODGroup:
   - screenRelativeHeight: 0.6
     fadeTransitionWidth: 0
     renderers:
-    - renderer: {fileID: 6493690048971171761}
+    - renderer: {fileID: 3059030203234056678}
   - screenRelativeHeight: 0.3
     fadeTransitionWidth: 0
     renderers:
-    - renderer: {fileID: 6493690048971171761}
-  - screenRelativeHeight: 0.025859566
+    - renderer: {fileID: 3059030203234056678}
+  - screenRelativeHeight: 0.03293352
     fadeTransitionWidth: 0
     renderers:
-    - renderer: {fileID: 6493690048971171761}
+    - renderer: {fileID: 3059030203234056678}
   m_Enabled: 1

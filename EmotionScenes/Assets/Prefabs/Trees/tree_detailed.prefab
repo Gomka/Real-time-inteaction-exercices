@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &5081979496688603151
+--- !u!1 &2902476409869628264
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,10 +8,10 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8715780649895575670}
-  - component: {fileID: 6467839242675827610}
-  - component: {fileID: 3552641316530081371}
-  - component: {fileID: 7622555768622241626}
+  - component: {fileID: 2525527932811258322}
+  - component: {fileID: 1487210231443596919}
+  - component: {fileID: 3695017240946889405}
+  - component: {fileID: 978347777454099843}
   m_Layer: 0
   m_Name: tree_detailed
   m_TagString: Untagged
@@ -19,36 +19,36 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8715780649895575670
+--- !u!4 &2525527932811258322
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5081979496688603151}
+  m_GameObject: {fileID: 2902476409869628264}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 5, y: 5, z: 5}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &6467839242675827610
+--- !u!33 &1487210231443596919
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5081979496688603151}
-  m_Mesh: {fileID: 3324290279596203714, guid: 9240213c1fc81ae4294d85a4dc775efc, type: 3}
---- !u!23 &3552641316530081371
+  m_GameObject: {fileID: 2902476409869628264}
+  m_Mesh: {fileID: 3324290279596203714, guid: e578662f25af2f14b9eb30e36c8b43fc, type: 3}
+--- !u!23 &3695017240946889405
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5081979496688603151}
+  m_GameObject: {fileID: 2902476409869628264}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -62,9 +62,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 3055808038450636745, guid: 9240213c1fc81ae4294d85a4dc775efc, type: 3}
-  - {fileID: 8911647698024284698, guid: 9240213c1fc81ae4294d85a4dc775efc, type: 3}
-  - {fileID: -3963241562183589234, guid: 9240213c1fc81ae4294d85a4dc775efc, type: 3}
+  - {fileID: -2959283651340661505, guid: e578662f25af2f14b9eb30e36c8b43fc, type: 3}
+  - {fileID: -2551240767032753910, guid: e578662f25af2f14b9eb30e36c8b43fc, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -86,16 +85,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!205 &7622555768622241626
+--- !u!205 &978347777454099843
 LODGroup:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5081979496688603151}
+  m_GameObject: {fileID: 2902476409869628264}
   serializedVersion: 2
-  m_LocalReferencePoint: {x: -0.00892508, y: 0.6662085, z: -0.008665264}
-  m_Size: 1.332417
+  m_LocalReferencePoint: {x: 0, y: 26.64834, z: 0}
+  m_Size: 53.29668
   m_FadeMode: 0
   m_AnimateCrossFading: 0
   m_LastLODIsBillboard: 0
@@ -103,13 +102,13 @@ LODGroup:
   - screenRelativeHeight: 0.6
     fadeTransitionWidth: 0
     renderers:
-    - renderer: {fileID: 3552641316530081371}
+    - renderer: {fileID: 3695017240946889405}
   - screenRelativeHeight: 0.3
     fadeTransitionWidth: 0
     renderers:
-    - renderer: {fileID: 3552641316530081371}
-  - screenRelativeHeight: 0.024069443
+    - renderer: {fileID: 3695017240946889405}
+  - screenRelativeHeight: 0.025464593
     fadeTransitionWidth: 0
     renderers:
-    - renderer: {fileID: 3552641316530081371}
+    - renderer: {fileID: 3695017240946889405}
   m_Enabled: 1
